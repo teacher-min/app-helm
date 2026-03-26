@@ -39,4 +39,4 @@ nginx:
 
 ingress:
   host: www.ciacia.o-r.kr
-  certificateArn: arn:aws:acm:ap-northeast-2:378271264675:certificate/5667a666-5172-43ba-b66b-d515ebd0a85c
+  certificateArn: arn:aws:acm:ap-northeast-2:402399409763:certificate/a10b99f6-7148-4db8-96a9-1cb164c46fe9
