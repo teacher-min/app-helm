@@ -21,7 +21,7 @@ redis:
   storage: 1Gi
 
 app:
-  image: ekchoi391204/app:v9
+  image: ekchoi3912/was1:v1
   replicas: 3
   secret:
     mysqlUser: "frodo"
@@ -38,5 +38,5 @@ nginx:
   replicas: 3
 
 ingress:
-  host: www.ciacia.o-r.kr
-  certificateArn: arn:aws:acm:ap-northeast-2:402399409763:certificate/a10b99f6-7148-4db8-96a9-1cb164c46fe9
+  host: www.teacher-min.p-e.kr
+  certificateArn: arn:aws:acm:ap-northeast-2:754386285201:certificate/75c54144-09fb-443d-b19e-a4eb47767426
